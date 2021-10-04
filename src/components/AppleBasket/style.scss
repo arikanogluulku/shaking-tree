@@ -1,0 +1,21 @@
+.basket {
+  width: 70%;
+  height: auto;
+  display: flex;
+  &-container {
+    grid-area: basket;
+    padding: 5%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+  }
+  &-apple {
+    width: 25%;
+    height: 50%;
+    display: flex;
+    position: absolute;
+    flex: wrap;
+    justify-content: space-around;
+  }
+}
